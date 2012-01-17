@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Sean Behan"]
   s.email       = ["bseanvt@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{QuietAssets}
+  s.description = %q{Disables logging of assets in rails server log output}
 
   s.rubyforge_project = "quiet_assets"
 
