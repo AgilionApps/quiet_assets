@@ -3,7 +3,7 @@ require "quiet_assets/version"
 module QuietAssets
   # Your code goes here...
   class QuietAssetsRailtie < Rails::Railtie
-    initializer "quiet_assets.turn_off_asset_logging_in_development" do
+    initializer "quiet_assets.initialize" do
       Rails.application.assets.logger = Logger.new('/dev/null')
       Rails::Rack::Logger.class_eval do
         def call_with_quiet_assets(env)
