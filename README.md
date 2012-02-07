@@ -6,7 +6,7 @@ Adding this gem to your project's Gemfile will suppress those messages.
 ``` ruby
 
 group :development do
-  gem 'quiet_assets', git: 'git@github.com:AgilionApps/quiet_assets.git'
+  gem 'quiet_assets', git: 'git@github.com:AgilionApps/quiet_assets.git', tag: 'v0.1.0'
 end
 
 ```
